@@ -1,0 +1,124 @@
+#blackjack {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: green;
+  color: lightgreen;
+  #dealer {
+    // height: 25vh;
+    // width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  #player {
+    // height: 70vh;
+    // width: 100vw;
+    // background-color: chocolate;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+    }
+
+    #chips-stats {
+      width: 100vw;
+      display: flex;
+      justify-content: space-between;
+      .chips,
+      .stats {
+        font-size: 1.15rem;
+        margin: 0px 5px 5px 5px;
+      }
+    }
+    .cards {
+      display: flex;
+      justify-content: center;
+      // flex-direction: column;
+      // align-items: center;
+    }
+    #hand-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      #betting-circle {
+        height: 60px;
+        width: 60px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+
+        .circular {
+          width: 56px;
+          height: 56px;
+          // margin: 3em auto 0;
+        }
+        .circular path {
+          fill: none;
+          stroke: lightgreen;
+          stroke-width: 2px;
+        }
+
+        .circular text {
+          dominant-baseline: hanging;
+          stroke: lightgreen;
+        }
+
+        .circular svg {
+          display: block;
+          overflow: visible;
+          position: relative;
+          z-index: 1;
+          top: 0;
+          // left: 0;
+        }
+      }
+    }
+  }
+  .hand-value {
+    display: flex;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  #hand-bet {
+    display: flex;
+    justify-content: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  #card {
+    margin: 0 5px;
+    height: 75px;
+    width: 50px;
+    border-radius: 5px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 0 5px black;
+    background-color: white;
+    margin-bottom: 5px;
+
+    #top-card {
+      margin: 0px 0px 0px 2px;
+    }
+    #middle-card {
+      display: flex;
+      justify-content: center;
+      font-size: 1.5rem;
+    }
+    #bottom-card {
+      display: flex;
+      justify-content: flex-end;
+      margin: 0px 3px 0px 0px;
+    }
+  }
+}
