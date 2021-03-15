@@ -1,39 +1,18 @@
-# weather
+# Blackjack
 
-Empty project.
+![Blackjack](blackjack_demo.gif)
 
-## Building and running on localhost
+With each project I try to add something new so I can continue to grow as a person and developer.
 
-First install dependencies:
+In this project:
+- Created a full on blackjack game where you can split, double down, adjust wagers, hit, and stay.
 
-```sh
-npm install
-```
+- If you have gone to a casino, you know that every table/place that you go to has different number of decks they play with. Therefore, I have allowed the user to choose how many decks they want to play with. Also, the cards reshuffle once there is only 1/8th of the cards remaining.
 
-To create a production build:
+- I have implemented a win/loss/tie tracker to later create data/statistics/graphs on your games (ie. how many times you busted with a starting hand of 16, how many times the dealer loses when it shows a 6 as the starting card, and so much more).
 
-```sh
-npm run build-prod
-```
+- Behind the scenes I created Authentication/Authorization utilizing JSON Web Tokens (JWT) and Reach Router to properly navigate the user to where they need/want to go.
 
-To create a development build:
+- I created the front-end using Javascript, React, CSS/SCSS, and HTML.
 
-```sh
-npm run build-dev
-```
-
-## Running
-
-Open the file `dist/index.html` in your browser
-
-## Testing
-
-To run unit tests:
-
-```sh
-npm test
-```
-
-## Credits
-
-Made with [createapp.dev](https://createapp.dev/)
+- I also created a back-end using Node, Express, and MongoDB to store users login information, and their in-game stats.
