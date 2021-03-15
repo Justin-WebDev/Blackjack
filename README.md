@@ -16,3 +16,12 @@ In this project:
 - I created the front-end using Javascript, React, CSS/SCSS, and HTML.
 
 - I also created a back-end using Node, Express, and MongoDB to store users login information, and their in-game stats.
+
+## Tech Stack
+- [React](https://reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [SASS](https://sass-lang.com/)
+- [Reach-Router](https://reach.tech/router/)
+- [Node](https://nodejs.org/en/)
+- [Express](https://expressjs.com/)
+- [AWS](https://aws.amazon.com/)
